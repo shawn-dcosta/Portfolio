@@ -1,0 +1,182 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#head {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.head_div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.bg_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text_container {
+  z-index: 1;
+  position: relative;
+  margin-left: -350px;
+}
+
+.head_title {
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  color: #176b87;
+}
+
+.tech {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin-top: 10;
+  color: #176b87;
+}
+
+.pro {
+  text-decoration: underline;
+  color: #053b50;
+}
+
+.name {
+  color: #053b50;
+}
+
+#about {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about > div h2 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  color: #053b50;
+}
+
+.hacker {
+  height: 200px;
+  border-radius: 200px;
+  margin: 50px 0 30px 0;
+  padding: 0;
+}
+
+.info {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  color: #176b87;
+}
+
+#projects {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+}
+
+.container {
+  height: 200px;
+  margin: 35px 0 30px 0;
+  padding: 0;
+  height: fit-content;
+  width: fit-content;
+}
+
+#projects > div h2 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  margin-top: 50px;
+  padding: 0;
+  color: #053b50;
+}
+
+#contact {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact > div h2 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  padding: 0;
+  color: #053b50;
+}
+
+#contact > div h3 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  margin: 50px 0 30px 0;
+  padding: 0;
+  color: #86c4ba;
+}
+
+.details {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  color: #176b87;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+#foot {
+  margin-top: 70px;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  padding: 10px 0;
+  background-color: #ededed;
+}
